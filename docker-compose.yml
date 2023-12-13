@@ -9,6 +9,6 @@ services:
       - "10011:10011"
       - "30033:30033"
     volumes:
-      - /usr/local/ts3server:/var/ts3server/
+      - /usr/local/ts3server/data:/var/ts3server/
     environment:
       TS3SERVER_LICENSE: accept
